@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "Slides/slides.html#section",
+    "href": "Slides/slides.html#section",
+    "title": "What Grad School Don’t Teach You",
+    "section": "",
+    "text": "Welcome"
+  },
+  {
+    "objectID": "Slides/slides.html#welcome",
+    "href": "Slides/slides.html#welcome",
+    "title": "What Grad School Don’t Teach You",
+    "section": "Welcome",
+    "text": "Welcome\n\nUnderstanding the chaos in research\nImportance of reproducible research\nTools for version control and technical writing"
+  },
+  {
+    "objectID": "Slides/slides.html#why-reproducibility-matters",
+    "href": "Slides/slides.html#why-reproducibility-matters",
+    "title": "What Grad School Don’t Teach You",
+    "section": "Why Reproducibility Matters",
+    "text": "Why Reproducibility Matters\n{: .huge-font} # This applies the huge font style\n\nIncreases transparency\nHelps future researchers\nAvoids errors in data analysis"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome to the “What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research”. The course website can be found at where you will also find a copy of the slides.\n\nContents\n\nUnderstand the chaos in research\nimportance of reproducible research and technical writing\ntools for version control and technical writing\n\n\n\nTarget Audience\n\nResearch schoalrs\nAcedemic Instructors\n\n\n\nPrerequisites\nAlmost None to get a ‘whirlwind tour’. But certainly lot to learn!!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Slides/index.html",
+    "href": "Slides/index.html",
+    "title": "Slides",
+    "section": "",
+    "text": "You can view the slides below or open them in a new tab."
+  }
+]
