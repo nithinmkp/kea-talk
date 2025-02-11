@@ -1,0 +1,31 @@
+---
+title: "What Grad School Don’t Teach You"
+format:
+  revealjs: 
+    controls: true
+    progress: true
+    slide-number: true
+    touch: true
+    keyboard: true
+    theme: styles.scss  # Apply custom styles
+brand: false
+---
+
+## {.standout}
+Welcome
+---
+
+## Welcome 
+
+- Understanding the chaos in research
+- Importance of reproducible research
+- Tools for version control and technical writing
+
+---
+
+## Why Reproducibility Matters
+{: .huge-font}  # This applies the huge font style
+
+- Increases transparency
+- Helps future researchers
+- Avoids errors in data analysis
