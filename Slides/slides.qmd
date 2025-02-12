@@ -1,13 +1,16 @@
 ---
 title: "What Grad School Don’t Teach You"
 format:
-  revealjs: 
-    controls: true
-    progress: true
+  revealjs:
+    theme: [default, styles.scss]
     slide-number: true
-    touch: true
-    keyboard: true
-    theme: styles.scss  # Apply custom styles
+    center: true
+    chalkboard: true
+    highlight-style: dracula
+    multiplex: false
+    preview-links: true
+    controls: true
+    footer: "https://nithinmkp.github.io/kea-talk/"
 brand: false
 ---
 
@@ -15,17 +18,107 @@ brand: false
 Welcome
 ---
 
-## Welcome 
+{{< include about_me.qmd >}}
 
-- Understanding the chaos in research
-- Importance of reproducible research
-- Tools for version control and technical writing
+{{< include about_u.qmd >}}
+
+---
+## Disclaimer 
+- Research is not equivalent to expertise in tools  
+- However, knowing these tools can save time  
 
 ---
 
-## Why Reproducibility Matters
-{: .huge-font}  # This applies the huge font style
+::: {.center}
+![Messy Folder Example](version.jpg)
+:::
+- "How many of you have experienced this?"  
 
-- Increases transparency
-- Helps future researchers
-- Avoids errors in data analysis
+---
+
+::: {.center}
+![Multi-Format Problem](colab.jpg)
+:::
+- Different versions of the same file in multiple formats  
+- Hard to track changes and collaborate efficiently  
+- Example: 'paper.docx', 'paper.pdf', 'paper.tex', 'paper_final.docx'  
+
+---
+
+::: {.center}
+![Collaboration Challenge](colab2.jpg)
+:::
+
+---
+
+## The Problem with Proprietary Software  
+- Expensive licensing costs (SPSS, Stata, MATLAB)  
+- Limited transparency and reproducibility  
+- Dependency on vendor updates  
+- Restrictions on sharing and collaboration  
+
+---
+
+## Why Reproducibility Matters {.scrollable}
+- Replication crisis: Cases where results didn’t hold  
+- **Top journals now require code submission**  
+  - *American Economic Review (AER):* 
+  - *The Economic Journal:*  
+  - *Econometrica:* 
+- **Even Research Associate positions now require fully reproducible code, including directory structure, even in Stata.**  
+
+---
+
+## The Economist’s Toolbox for Reproducibility    
+- **Quarto** for technical writing and reproducible reports  
+- **Open-source programming tools** instead of proprietary software  
+- **Git & GitHub** for version control
+
+---
+
+## Open-Source Alternatives  
+- **R & Python**: Powerful, free, and widely used in research  
+- **Jupyter Notebooks & Quarto**: Interactive and reproducible analysis  
+- **RStudio & VS Code**: User-friendly IDEs for research  
+- **Pandas, dplyr, ggplot2**: Flexible and customizable tools  
+
+---
+
+## Version Control: Git & GitHub in Action  
+- Track changes efficiently  
+- Collaborate without chaos  
+- Revert to previous versions easily  
+
+---
+
+## Reproducible Technical Writing with Quarto  
+- Integrates code, text, and results  
+- Avoids copy-pasting mistakes  
+- Generates reports in multiple formats (HTML, PDF, Word)  
+
+---
+
+## Case Study: A Reproducible Research Workflow  
+1. **Step 1:** Organizing your project with Git  
+2. **Step 2:** Writing with Quarto  
+3. **Step 3:** Ensuring full reproducibility  
+
+---
+
+## Challenges & How to Overcome Them  
+- Learning curve for Git & Quarto  
+- Institutional resistance  
+- Best practices to ease adoption  
+
+---
+
+## Call to Action & Q&A  
+- Start small: Track one project in Git  
+- Try writing a Quarto report  
+- Shift from proprietary to open-source tools  
+- Encourage colleagues to embrace reproducibility  
+
+## {.rfit-text }
+
+{{< fa question size=10x >}}
+[Questions]{.huge-font}

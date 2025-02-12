@@ -6,7 +6,9 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-704a3d686fdb3e6b26ef47c77620618f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
   <title>What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research – What Grad School Don’t Teach You</title>
@@ -28,10 +30,12 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-90accf9b15ec41001d75a5e653212326.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-1bb7530c7f61f466b25e4210a4ff6d87.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -132,33 +136,203 @@
 </div>
 
 </section>
-<section id="section" class="slide level2 standout">
+<section id="section" class="slide level2 standout center">
 <h2></h2>
 <p>Welcome</p>
 </section>
-<section id="welcome" class="slide level2">
-<h2>Welcome</h2>
+<section id="about-me" class="slide level2 center">
+<h2>About Me</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img src="nithin.jpeg" width="150px" style="border-radius: 50%;"></p>
+</div><div class="column" style="width:70%;">
+<p><strong>Nithin M</strong><br>
+Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Board<br>
+🎓 <em>Indian Institute of Technology Kharagpur</em></p>
+<p><a href="https://twitter.com/nithin_eco"><i class="fa-brands fa-twitter" aria-label="twitter"></i> <span class="citation" data-cites="nithin_eco">@nithin_eco</span></a><br>
+<a href="https://github.com/nithinmkp"><i class="fa-brands fa-github" aria-label="github"></i> <span class="citation" data-cites="nithinmkp">@nithinmkp</span></a><br>
+<i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:write2nithinm@gmail.com">write2nithinm@gmail.com</a><br>
+<a href="https://nithinmkp.github.io/"><i class="fa-solid fa-globe" aria-label="globe"></i> Website</a></p>
+</div></div>
+</section>
+<section id="about-you" class="slide level2 center">
+<h2>About You</h2>
+<div>
 <ul>
-<li>Understanding the chaos in research</li>
-<li>Importance of reproducible research</li>
-<li>Tools for version control and technical writing</li>
+<li class="fragment">Research Scholars</li>
+<li class="fragment">Academicians</li>
+<li class="fragment">Content Creators</li>
+</ul>
+</div>
+</section>
+<section id="disclaimer" class="slide level2 center">
+<h2>Disclaimer</h2>
+<ul>
+<li>Research is not equivalent to expertise in tools<br>
+</li>
+<li>However, knowing these tools can save time</li>
 </ul>
 </section>
-<section id="why-reproducibility-matters" class="slide level2">
-<h2>Why Reproducibility Matters</h2>
-<p>{: .huge-font} # This applies the huge font style</p>
+<section class="slide level2 center">
+
+<div class="center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="version.jpg"></p>
+<figcaption>Messy Folder Example</figcaption>
+</figure>
+</div>
+</div>
 <ul>
-<li>Increases transparency</li>
-<li>Helps future researchers</li>
-<li>Avoids errors in data analysis</li>
+<li>“How many of you have experienced this?”</li>
 </ul>
+</section>
+<section class="slide level2 center">
+
+<div class="center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="colab.jpg"></p>
+<figcaption>Multi-Format Problem</figcaption>
+</figure>
+</div>
+</div>
+<ul>
+<li>Different versions of the same file in multiple formats<br>
+</li>
+<li>Hard to track changes and collaborate efficiently<br>
+</li>
+<li>Example: ‘paper.docx’, ‘paper.pdf’, ‘paper.tex’, ‘paper_final.docx’</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<div class="center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="colab2.jpg"></p>
+<figcaption>Collaboration Challenge</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="the-problem-with-proprietary-software" class="slide level2 center">
+<h2>The Problem with Proprietary Software</h2>
+<ul>
+<li>Expensive licensing costs (SPSS, Stata, MATLAB)<br>
+</li>
+<li>Limited transparency and reproducibility<br>
+</li>
+<li>Dependency on vendor updates<br>
+</li>
+<li>Restrictions on sharing and collaboration</li>
+</ul>
+</section>
+<section id="why-reproducibility-matters" class="slide level2 scrollable center">
+<h2>Why Reproducibility Matters</h2>
+<ul>
+<li>Paul Romer’s advocacy for transparent research<br>
+</li>
+<li>Replication crisis: Cases where results didn’t hold<br>
+</li>
+<li><strong>Top journals now require code submission</strong>
+<ul>
+<li><em>American Economic Review (AER):</em></li>
+<li><em>The Economic Journal:</em><br>
+</li>
+<li><em>Econometrica:</em> Enforces a data and code availability policy<br>
+</li>
+</ul></li>
+<li><strong>Even Research Associate positions now require fully reproducible code, including directory structure, even in Stata.</strong><br>
+</li>
+<li><strong>Reproducibility is becoming a standard in economic research.</strong></li>
+</ul>
+</section>
+<section id="the-economists-toolbox-for-reproducibility" class="slide level2 center">
+<h2>The Economist’s Toolbox for Reproducibility</h2>
+<ul>
+<li><strong>Git &amp; GitHub</strong> for version control<br>
+</li>
+<li><strong>Quarto</strong> for technical writing and reproducible reports<br>
+</li>
+<li><strong>Open-source programming tools</strong> instead of proprietary software</li>
+</ul>
+</section>
+<section id="open-source-alternatives" class="slide level2 center">
+<h2>Open-Source Alternatives</h2>
+<ul>
+<li><strong>R &amp; Python</strong>: Powerful, free, and widely used in research<br>
+</li>
+<li><strong>Jupyter Notebooks &amp; Quarto</strong>: Interactive and reproducible analysis<br>
+</li>
+<li><strong>RStudio &amp; VS Code</strong>: User-friendly IDEs for research<br>
+</li>
+<li><strong>Pandas, dplyr, ggplot2</strong>: Flexible and customizable tools</li>
+</ul>
+</section>
+<section id="version-control-git-github-in-action" class="slide level2 center">
+<h2>Version Control: Git &amp; GitHub in Action</h2>
+<ul>
+<li>Track changes efficiently<br>
+</li>
+<li>Collaborate without chaos<br>
+</li>
+<li>Revert to previous versions easily</li>
+</ul>
+</section>
+<section id="reproducible-technical-writing-with-quarto" class="slide level2 center">
+<h2>Reproducible Technical Writing with Quarto</h2>
+<ul>
+<li>Integrates code, text, and results<br>
+</li>
+<li>Avoids copy-pasting mistakes<br>
+</li>
+<li>Generates reports in multiple formats (HTML, PDF, Word)</li>
+</ul>
+</section>
+<section id="case-study-a-reproducible-research-workflow" class="slide level2 center">
+<h2>Case Study: A Reproducible Research Workflow</h2>
+<ol type="1">
+<li><strong>Step 1:</strong> Organizing your project with Git<br>
+</li>
+<li><strong>Step 2:</strong> Writing with Quarto<br>
+</li>
+<li><strong>Step 3:</strong> Ensuring full reproducibility</li>
+</ol>
+</section>
+<section id="challenges-how-to-overcome-them" class="slide level2 center">
+<h2>Challenges &amp; How to Overcome Them</h2>
+<ul>
+<li>Learning curve for Git &amp; Quarto<br>
+</li>
+<li>Institutional resistance<br>
+</li>
+<li>Best practices to ease adoption</li>
+</ul>
+</section>
+<section id="call-to-action-qa" class="slide level2 center">
+<h2>Call to Action &amp; Q&amp;A</h2>
+<ul>
+<li>Start small: Track one project in Git<br>
+</li>
+<li>Try writing a Quarto report<br>
+</li>
+<li>Shift from proprietary to open-source tools<br>
+</li>
+<li>Encourage colleagues to embrace reproducibility</li>
+</ul>
+</section>
+<section id="section-1" class="slide level2 rfit-text center">
+<h2></h2>
+<p><i class="fa-solid fa-question fa-10x" aria-label="question"></i></p>
+<p><span class="huge-font">Questions</span></p>
 
 
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-
+<p>https://nithinmkp.github.io/kea-talk/</p>
 </div>
 </div></div>
 
@@ -169,6 +343,7 @@
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -190,7 +365,8 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -240,7 +416,7 @@
         disableLayout: false,
 
         // Vertical centering of slides
-        center: false,
+        center: true,
 
         // Enables touch navigation on devices with touch input
         touch: true,
@@ -313,7 +489,7 @@
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: false,
+        previewLinks: true,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
         transition: 'none',
@@ -361,7 +537,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,

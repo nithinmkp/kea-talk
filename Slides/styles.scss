@@ -9,10 +9,10 @@
 
 /* High-contrast background for standout slides */
 .standout {
-  background-color: #222222 !important; // Dark grey background
+  background-color: #1c4650 !important; // Dark grey background
   color: #ffffff !important; // White text
   text-align: center;
-  font-size: 60px;
+  font-size: 120px;
   font-weight: bold;
   padding: 40px;
 }
@@ -22,4 +22,31 @@
   border: none;
   width: 90%;
   height: 500px;
+}
+
+.reveal .progress{ /* Change progress bar color to red */
+  height: 1.75%;
+  color: #1c4650;
+}
+
+.reveal .standout + .progress,
+.reveal .slide.standout ~ .progress {
+  background-color: #1c4650 !important; /* Standout slide color */
+  color: #ffffff !important; /* White progress bar */
+}
+.custom-footer {
+  display: flex;
+  width: 100%;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.footer-left {
+  text-align: left;
+  flex: 1;
+}
+
+.footer-center {
+  text-align: center;
+  flex: 1;
 }
