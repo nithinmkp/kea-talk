@@ -1,6 +1,11 @@
-## About You {.center}
+## About You {.scrollable}
 ::: {.incremental}
-- Research Scholars
-- Academicians
-- Content Creators
+- Research Scholars  
+- Academicians  
+- Content Creators  
+- **Your current workflow:**  
+  - manually save multiple versions of the same file 
+  - rely on copy-pasting results  
+  - struggle with collaboration across different tools  
+  - analysis in STATA , write in Word, communicate via email
 :::

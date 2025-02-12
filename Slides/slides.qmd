@@ -1,10 +1,12 @@
 ---
-title: "What Grad School Don’t Teach You"
+title: "What Grad Schools Don’t Teach You"
+subtitle: Tools for Transperant and Reproducable Research
+author: Nithin M
+image: titlke.jpeg
 format:
   revealjs:
-    theme: [default, styles.scss]
+    theme: [sky, styles.scss]
     slide-number: true
-    center: true
     chalkboard: true
     highlight-style: dracula
     multiplex: false
@@ -51,12 +53,17 @@ Welcome
 
 ---
 
-## The Problem with Proprietary Software  
-- Expensive licensing costs (SPSS, Stata, MATLAB)  
-- Limited transparency and reproducibility  
-- Dependency on vendor updates  
-- Restrictions on sharing and collaboration  
+## 
+![](titlke.jpeg)
 
+---
+
+## What if there was a better way
+  - Automate documentation & results  
+  - Use version control for tracking changes  
+  - Ensure full reproducibility with open tools 
+
+[Outcome  - Reproducible Research]{.huge-font-r}
 ---
 
 ## Why Reproducibility Matters {.scrollable}
@@ -67,52 +74,51 @@ Welcome
   - *Econometrica:* 
 - **Even Research Associate positions now require fully reproducible code, including directory structure, even in Stata.**  
 
----
-
 ## The Economist’s Toolbox for Reproducibility    
-- **Quarto** for technical writing and reproducible reports  
 - **Open-source programming tools** instead of proprietary software  
+- **Quarto** for technical writing and reproducible reports  
 - **Git & GitHub** for version control
 
----
+## The Problem with Proprietary Software  
+- Expensive licensing costs (SPSS, Stata, MATLAB)  
+- Limited transparency and reproducibility  
+- Dependency on vendor updates  
+- Restrictions on sharing and collaboration  
 
 ## Open-Source Alternatives  
 - **R & Python**: Powerful, free, and widely used in research  
 - **Jupyter Notebooks & Quarto**: Interactive and reproducible analysis  
-- **RStudio & VS Code**: User-friendly IDEs for research  
-- **Pandas, dplyr, ggplot2**: Flexible and customizable tools  
-
----
-
-## Version Control: Git & GitHub in Action  
-- Track changes efficiently  
-- Collaborate without chaos  
-- Revert to previous versions easily  
+- **RStudio & VS Code**: User-friendly IDEs for research
 
 ---
 
 ## Reproducible Technical Writing with Quarto  
 - Integrates code, text, and results  
 - Avoids copy-pasting mistakes  
-- Generates reports in multiple formats (HTML, PDF, Word)  
+- Generates reports in multiple formats (HTML, PDF, Word) 
 
----
+## Version Control: Git & GitHub in Action  
+- Track changes efficiently  
+- Collaborate without chaos  
+- Revert to previous versions easily  
 
-## Case Study: A Reproducible Research Workflow  
+
+
+## A Reproducible Research Workflow  
 1. **Step 1:** Organizing your project with Git  
-2. **Step 2:** Writing with Quarto  
-3. **Step 3:** Ensuring full reproducibility  
+2. **Step 2:** Analysis
+3. **Step 3:** Writing with Quarto  
+4. **Step 4:** Publishing with Quarto
 
 ---
 
-## Challenges & How to Overcome Them  
+## Challenges 
 - Learning curve for Git & Quarto  
-- Institutional resistance  
-- Best practices to ease adoption  
+- Institutional/personal resistance  
 
 ---
 
-## Call to Action & Q&A  
+## Way Forward 
 - Start small: Track one project in Git  
 - Try writing a Quarto report  
 - Shift from proprietary to open-source tools  
