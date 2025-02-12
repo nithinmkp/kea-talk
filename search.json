@@ -1,24 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "demo.html",
+    "href": "demo.html",
+    "title": "Example",
     "section": "",
-    "text": "Welcome to the “What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research”. The course website can be found at where you will also find a copy of the slides.\n\nContents\n\nUnderstand the chaos in research\nimportance of reproducible research and technical writing\ntools for version control and technical writing\n\n\n\nTarget Audience\n\nResearch schoalrs\nAcedemic Instructors\n\n\n\nPrerequisites\nAlmost None to get a ‘whirlwind tour’. But certainly lot to learn!!"
+    "text": "Please fill this google form to see example of an automation\nLink to google form"
   },
   {
-    "objectID": "Slides/about_me.html",
-    "href": "Slides/about_me.html",
+    "objectID": "Slides/about_u.html",
+    "href": "Slides/about_u.html",
     "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
     "section": "",
-    "text": "Nithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
+    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
   },
   {
-    "objectID": "Slides/about_me.html#about-me",
-    "href": "Slides/about_me.html#about-me",
+    "objectID": "Slides/about_u.html#about-you",
+    "href": "Slides/about_u.html#about-you",
     "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
     "section": "",
-    "text": "Nithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
+    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
+  },
+  {
+    "objectID": "Slides/index.html",
+    "href": "Slides/index.html",
+    "title": "Slides",
+    "section": "",
+    "text": "You can view the slides below or open them in a new tab."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "Slides/slides.html#section",
@@ -154,31 +168,24 @@
     "text": "Questions"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "Slides/index.html",
-    "href": "Slides/index.html",
-    "title": "Slides",
-    "section": "",
-    "text": "You can view the slides below or open them in a new tab."
-  },
-  {
-    "objectID": "Slides/about_u.html",
-    "href": "Slides/about_u.html",
+    "objectID": "Slides/about_me.html",
+    "href": "Slides/about_me.html",
     "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
     "section": "",
-    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
+    "text": "Nithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
   },
   {
-    "objectID": "Slides/about_u.html#about-you",
-    "href": "Slides/about_u.html#about-you",
+    "objectID": "Slides/about_me.html#about-me",
+    "href": "Slides/about_me.html#about-me",
     "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
     "section": "",
-    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
+    "text": "Nithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome to the “What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research”. The course website can be found at where you will also find a copy of the slides.\n\nContents\n\nUnderstand the chaos in research\nimportance of reproducible research and technical writing\ntools for version control and technical writing\n\n\n\nTarget Audience\n\nResearch schoalrs\nAcedemic Instructors\n\n\n\nPrerequisites\nAlmost None to get a ‘whirlwind tour’. But certainly lot to learn!!"
   }
 ]
