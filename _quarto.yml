@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research"
+  title: "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research"
   navbar:
     left:
       - href: index.qmd

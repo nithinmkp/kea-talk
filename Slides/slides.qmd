@@ -31,25 +31,40 @@ Welcome
 
 ---
 
-::: {.center}
-![Messy Folder Example](version.jpg)
-:::
-- "How many of you have experienced this?"  
+## Collaborative Research/Thesis/Dissertation
+
+
+Imagine:  
+
+
+- You’ve written a research draft and want feedback, so you email **draft.docx**.
+- I add comments, make changes, and email you back **draft_Nithin_comments.docx**.
+- You incorporate suggestions, add more sections, and send me **draft_v2.docx**.
+- After a few more rounds, we end up with **draft_v5_final_FINAL.docx**.
 
 ---
 
-::: {.center}
-![Multi-Format Problem](colab.jpg)
+## 
+![Messy Folder Example](version.jpg)
+
+::: {.incremental}
+- "How many of you have experienced this?"  
 :::
+---
+
+##
+![Multi-Format Problem](colab.jpg)
+
+::: {.incremental}
 - Different versions of the same file in multiple formats  
 - Hard to track changes and collaborate efficiently  
 - Example: 'paper.docx', 'paper.pdf', 'paper.tex', 'paper_final.docx'  
-
+:::
 ---
 
-::: {.center}
+## 
 ![Collaboration Challenge](colab2.jpg)
-:::
+
 
 ---
 

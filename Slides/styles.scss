@@ -7,7 +7,8 @@
   font-size: 90px !important;
 }
 
-.huge-font-r{
+.huge-font-r {
+  font-size: inherit; // Inherits from .huge-font if applied within its scope
   color: red;
 }
 
