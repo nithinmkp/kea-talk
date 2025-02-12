@@ -11,7 +11,8 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research – What Grad School Don’t Teach You</title>
+  <meta name="author" content="Nithin M">
+  <title>What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research – What Grad Schools Don’t Teach You</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,7 +31,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-1bb7530c7f61f466b25e4210a4ff6d87.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-98da451b1a26e81f3be6a7be8f17cc36.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -130,17 +131,23 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">What Grad School Don’t Teach You</h1>
+  <h1 class="title">What Grad Schools Don’t Teach You</h1>
+  <p class="subtitle">Tools for Transperant and Reproducable Research</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Nithin M 
+</div>
+</div>
 </div>
 
 </section>
-<section id="section" class="slide level2 standout center">
+<section id="section" class="slide level2 standout">
 <h2></h2>
 <p>Welcome</p>
 </section>
-<section id="about-me" class="slide level2 center">
+<section id="about-me" class="slide level2">
 <h2>About Me</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
@@ -155,17 +162,29 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <a href="https://nithinmkp.github.io/"><i class="fa-solid fa-globe" aria-label="globe"></i> Website</a></p>
 </div></div>
 </section>
-<section id="about-you" class="slide level2 center">
+<section id="about-you" class="slide level2 scrollable">
 <h2>About You</h2>
 <div>
 <ul>
-<li class="fragment">Research Scholars</li>
-<li class="fragment">Academicians</li>
-<li class="fragment">Content Creators</li>
+<li class="fragment">Research Scholars<br>
+</li>
+<li class="fragment">Academicians<br>
+</li>
+<li class="fragment">Content Creators<br>
+</li>
+<li class="fragment"><strong>Your current workflow:</strong>
+<ul>
+<li class="fragment">manually save multiple versions of the same file</li>
+<li class="fragment">rely on copy-pasting results<br>
+</li>
+<li class="fragment">struggle with collaboration across different tools<br>
+</li>
+<li class="fragment">analysis in STATA , write in Word, communicate via email</li>
+</ul></li>
 </ul>
 </div>
 </section>
-<section id="disclaimer" class="slide level2 center">
+<section id="disclaimer" class="slide level2">
 <h2>Disclaimer</h2>
 <ul>
 <li>Research is not equivalent to expertise in tools<br>
@@ -173,7 +192,7 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <li>However, knowing these tools can save time</li>
 </ul>
 </section>
-<section class="slide level2 center">
+<section class="slide level2">
 
 <div class="center">
 <div class="quarto-figure quarto-figure-center">
@@ -187,7 +206,7 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <li>“How many of you have experienced this?”</li>
 </ul>
 </section>
-<section class="slide level2 center">
+<section class="slide level2">
 
 <div class="center">
 <div class="quarto-figure quarto-figure-center">
@@ -205,7 +224,7 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <li>Example: ‘paper.docx’, ‘paper.pdf’, ‘paper.tex’, ‘paper_final.docx’</li>
 </ul>
 </section>
-<section class="slide level2 center">
+<section class="slide level2">
 
 <div class="center">
 <div class="quarto-figure quarto-figure-center">
@@ -216,19 +235,22 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 </div>
 </div>
 </section>
-<section id="the-problem-with-proprietary-software" class="slide level2 center">
-<h2>The Problem with Proprietary Software</h2>
+<section id="section-1" class="slide level2">
+<h2></h2>
+
+<img data-src="titlke.jpeg" class="r-stretch"></section>
+<section id="what-if-there-was-a-better-way" class="slide level2">
+<h2>What if there was a better way</h2>
 <ul>
-<li>Expensive licensing costs (SPSS, Stata, MATLAB)<br>
+<li>Automate documentation &amp; results<br>
 </li>
-<li>Limited transparency and reproducibility<br>
+<li>Use version control for tracking changes<br>
 </li>
-<li>Dependency on vendor updates<br>
-</li>
-<li>Restrictions on sharing and collaboration</li>
+<li>Ensure full reproducibility with open tools</li>
 </ul>
+<p><span class="huge-font-r">Outcome - Reproducible Research</span></p>
 </section>
-<section id="why-reproducibility-matters" class="slide level2 scrollable center">
+<section id="why-reproducibility-matters" class="slide level2 scrollable">
 <h2>Why Reproducibility Matters</h2>
 <ul>
 <li>Replication crisis: Cases where results didn’t hold<br>
@@ -243,39 +265,39 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <li><strong>Even Research Associate positions now require fully reproducible code, including directory structure, even in Stata.</strong></li>
 </ul>
 </section>
-<section id="the-economists-toolbox-for-reproducibility" class="slide level2 center">
+<section id="the-economists-toolbox-for-reproducibility" class="slide level2">
 <h2>The Economist’s Toolbox for Reproducibility</h2>
 <ul>
-<li><strong>Quarto</strong> for technical writing and reproducible reports<br>
-</li>
 <li><strong>Open-source programming tools</strong> instead of proprietary software<br>
+</li>
+<li><strong>Quarto</strong> for technical writing and reproducible reports<br>
 </li>
 <li><strong>Git &amp; GitHub</strong> for version control</li>
 </ul>
 </section>
-<section id="open-source-alternatives" class="slide level2 center">
+<section id="the-problem-with-proprietary-software" class="slide level2">
+<h2>The Problem with Proprietary Software</h2>
+<ul>
+<li>Expensive licensing costs (SPSS, Stata, MATLAB)<br>
+</li>
+<li>Limited transparency and reproducibility<br>
+</li>
+<li>Dependency on vendor updates<br>
+</li>
+<li>Restrictions on sharing and collaboration</li>
+</ul>
+</section>
+<section id="open-source-alternatives" class="slide level2">
 <h2>Open-Source Alternatives</h2>
 <ul>
 <li><strong>R &amp; Python</strong>: Powerful, free, and widely used in research<br>
 </li>
 <li><strong>Jupyter Notebooks &amp; Quarto</strong>: Interactive and reproducible analysis<br>
 </li>
-<li><strong>RStudio &amp; VS Code</strong>: User-friendly IDEs for research<br>
-</li>
-<li><strong>Pandas, dplyr, ggplot2</strong>: Flexible and customizable tools</li>
+<li><strong>RStudio &amp; VS Code</strong>: User-friendly IDEs for research</li>
 </ul>
 </section>
-<section id="version-control-git-github-in-action" class="slide level2 center">
-<h2>Version Control: Git &amp; GitHub in Action</h2>
-<ul>
-<li>Track changes efficiently<br>
-</li>
-<li>Collaborate without chaos<br>
-</li>
-<li>Revert to previous versions easily</li>
-</ul>
-</section>
-<section id="reproducible-technical-writing-with-quarto" class="slide level2 center">
+<section id="reproducible-technical-writing-with-quarto" class="slide level2">
 <h2>Reproducible Technical Writing with Quarto</h2>
 <ul>
 <li>Integrates code, text, and results<br>
@@ -285,28 +307,37 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <li>Generates reports in multiple formats (HTML, PDF, Word)</li>
 </ul>
 </section>
-<section id="case-study-a-reproducible-research-workflow" class="slide level2 center">
-<h2>Case Study: A Reproducible Research Workflow</h2>
+<section id="version-control-git-github-in-action" class="slide level2">
+<h2>Version Control: Git &amp; GitHub in Action</h2>
+<ul>
+<li>Track changes efficiently<br>
+</li>
+<li>Collaborate without chaos<br>
+</li>
+<li>Revert to previous versions easily</li>
+</ul>
+</section>
+<section id="a-reproducible-research-workflow" class="slide level2">
+<h2>A Reproducible Research Workflow</h2>
 <ol type="1">
 <li><strong>Step 1:</strong> Organizing your project with Git<br>
 </li>
-<li><strong>Step 2:</strong> Writing with Quarto<br>
+<li><strong>Step 2:</strong> Analysis</li>
+<li><strong>Step 3:</strong> Writing with Quarto<br>
 </li>
-<li><strong>Step 3:</strong> Ensuring full reproducibility</li>
+<li><strong>Step 4:</strong> Publishing with Quarto</li>
 </ol>
 </section>
-<section id="challenges-how-to-overcome-them" class="slide level2 center">
-<h2>Challenges &amp; How to Overcome Them</h2>
+<section id="challenges" class="slide level2">
+<h2>Challenges</h2>
 <ul>
 <li>Learning curve for Git &amp; Quarto<br>
 </li>
-<li>Institutional resistance<br>
-</li>
-<li>Best practices to ease adoption</li>
+<li>Institutional/personal resistance</li>
 </ul>
 </section>
-<section id="call-to-action-qa" class="slide level2 center">
-<h2>Call to Action &amp; Q&amp;A</h2>
+<section id="way-forward" class="slide level2">
+<h2>Way Forward</h2>
 <ul>
 <li>Start small: Track one project in Git<br>
 </li>
@@ -317,7 +348,7 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <li>Encourage colleagues to embrace reproducibility</li>
 </ul>
 </section>
-<section id="section-1" class="slide level2 rfit-text center">
+<section id="section-2" class="slide level2 rfit-text">
 <h2></h2>
 <p><i class="fa-solid fa-question fa-10x" aria-label="question"></i></p>
 <p><span class="huge-font">Questions</span></p>
@@ -411,7 +442,7 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
         disableLayout: false,
 
         // Vertical centering of slides
-        center: true,
+        center: false,
 
         // Enables touch navigation on devices with touch input
         touch: true,

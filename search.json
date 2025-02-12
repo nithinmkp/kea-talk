@@ -7,6 +7,34 @@
     "text": "Welcome to the “What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research”. The course website can be found at where you will also find a copy of the slides.\n\nContents\n\nUnderstand the chaos in research\nimportance of reproducible research and technical writing\ntools for version control and technical writing\n\n\n\nTarget Audience\n\nResearch schoalrs\nAcedemic Instructors\n\n\n\nPrerequisites\nAlmost None to get a ‘whirlwind tour’. But certainly lot to learn!!"
   },
   {
+    "objectID": "Slides/index.html",
+    "href": "Slides/index.html",
+    "title": "Slides",
+    "section": "",
+    "text": "You can view the slides below or open them in a new tab."
+  },
+  {
+    "objectID": "Slides/about_u.html",
+    "href": "Slides/about_u.html",
+    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
+    "section": "",
+    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
+  },
+  {
+    "objectID": "Slides/about_u.html#about-you",
+    "href": "Slides/about_u.html#about-you",
+    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
+    "section": "",
+    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "Slides/about_me.html",
     "href": "Slides/about_me.html",
     "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
@@ -23,127 +51,106 @@
   {
     "objectID": "Slides/slides.html#section",
     "href": "Slides/slides.html#section",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "",
     "text": "Welcome"
   },
   {
     "objectID": "Slides/slides.html#about-me",
     "href": "Slides/slides.html#about-me",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "About Me",
     "text": "About Me\n\n\n\n\nNithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
   },
   {
     "objectID": "Slides/slides.html#about-you",
     "href": "Slides/slides.html#about-you",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "About You",
-    "text": "About You\n\n\nResearch Scholars\nAcademicians\nContent Creators"
+    "text": "About You\n\n\nResearch Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
   },
   {
     "objectID": "Slides/slides.html#disclaimer",
     "href": "Slides/slides.html#disclaimer",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "Disclaimer",
     "text": "Disclaimer\n\nResearch is not equivalent to expertise in tools\n\nHowever, knowing these tools can save time"
   },
   {
-    "objectID": "Slides/slides.html#the-problem-with-proprietary-software",
-    "href": "Slides/slides.html#the-problem-with-proprietary-software",
-    "title": "What Grad School Don’t Teach You",
-    "section": "The Problem with Proprietary Software",
-    "text": "The Problem with Proprietary Software\n\nExpensive licensing costs (SPSS, Stata, MATLAB)\n\nLimited transparency and reproducibility\n\nDependency on vendor updates\n\nRestrictions on sharing and collaboration"
+    "objectID": "Slides/slides.html#what-if-there-was-a-better-way",
+    "href": "Slides/slides.html#what-if-there-was-a-better-way",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "What if there was a better way",
+    "text": "What if there was a better way\n\nAutomate documentation & results\n\nUse version control for tracking changes\n\nEnsure full reproducibility with open tools\n\nOutcome - Reproducible Research"
   },
   {
     "objectID": "Slides/slides.html#why-reproducibility-matters",
     "href": "Slides/slides.html#why-reproducibility-matters",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "Why Reproducibility Matters",
     "text": "Why Reproducibility Matters\n\nReplication crisis: Cases where results didn’t hold\n\nTop journals now require code submission\n\nAmerican Economic Review (AER):\nThe Economic Journal:\n\nEconometrica:\n\nEven Research Associate positions now require fully reproducible code, including directory structure, even in Stata."
   },
   {
     "objectID": "Slides/slides.html#the-economists-toolbox-for-reproducibility",
     "href": "Slides/slides.html#the-economists-toolbox-for-reproducibility",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "The Economist’s Toolbox for Reproducibility",
-    "text": "The Economist’s Toolbox for Reproducibility\n\nQuarto for technical writing and reproducible reports\n\nOpen-source programming tools instead of proprietary software\n\nGit & GitHub for version control"
+    "text": "The Economist’s Toolbox for Reproducibility\n\nOpen-source programming tools instead of proprietary software\n\nQuarto for technical writing and reproducible reports\n\nGit & GitHub for version control"
+  },
+  {
+    "objectID": "Slides/slides.html#the-problem-with-proprietary-software",
+    "href": "Slides/slides.html#the-problem-with-proprietary-software",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "The Problem with Proprietary Software",
+    "text": "The Problem with Proprietary Software\n\nExpensive licensing costs (SPSS, Stata, MATLAB)\n\nLimited transparency and reproducibility\n\nDependency on vendor updates\n\nRestrictions on sharing and collaboration"
   },
   {
     "objectID": "Slides/slides.html#open-source-alternatives",
     "href": "Slides/slides.html#open-source-alternatives",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "Open-Source Alternatives",
-    "text": "Open-Source Alternatives\n\nR & Python: Powerful, free, and widely used in research\n\nJupyter Notebooks & Quarto: Interactive and reproducible analysis\n\nRStudio & VS Code: User-friendly IDEs for research\n\nPandas, dplyr, ggplot2: Flexible and customizable tools"
-  },
-  {
-    "objectID": "Slides/slides.html#version-control-git-github-in-action",
-    "href": "Slides/slides.html#version-control-git-github-in-action",
-    "title": "What Grad School Don’t Teach You",
-    "section": "Version Control: Git & GitHub in Action",
-    "text": "Version Control: Git & GitHub in Action\n\nTrack changes efficiently\n\nCollaborate without chaos\n\nRevert to previous versions easily"
+    "text": "Open-Source Alternatives\n\nR & Python: Powerful, free, and widely used in research\n\nJupyter Notebooks & Quarto: Interactive and reproducible analysis\n\nRStudio & VS Code: User-friendly IDEs for research"
   },
   {
     "objectID": "Slides/slides.html#reproducible-technical-writing-with-quarto",
     "href": "Slides/slides.html#reproducible-technical-writing-with-quarto",
-    "title": "What Grad School Don’t Teach You",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "Reproducible Technical Writing with Quarto",
     "text": "Reproducible Technical Writing with Quarto\n\nIntegrates code, text, and results\n\nAvoids copy-pasting mistakes\n\nGenerates reports in multiple formats (HTML, PDF, Word)"
   },
   {
-    "objectID": "Slides/slides.html#case-study-a-reproducible-research-workflow",
-    "href": "Slides/slides.html#case-study-a-reproducible-research-workflow",
-    "title": "What Grad School Don’t Teach You",
-    "section": "Case Study: A Reproducible Research Workflow",
-    "text": "Case Study: A Reproducible Research Workflow\n\nStep 1: Organizing your project with Git\n\nStep 2: Writing with Quarto\n\nStep 3: Ensuring full reproducibility"
+    "objectID": "Slides/slides.html#version-control-git-github-in-action",
+    "href": "Slides/slides.html#version-control-git-github-in-action",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Version Control: Git & GitHub in Action",
+    "text": "Version Control: Git & GitHub in Action\n\nTrack changes efficiently\n\nCollaborate without chaos\n\nRevert to previous versions easily"
   },
   {
-    "objectID": "Slides/slides.html#challenges-how-to-overcome-them",
-    "href": "Slides/slides.html#challenges-how-to-overcome-them",
-    "title": "What Grad School Don’t Teach You",
-    "section": "Challenges & How to Overcome Them",
-    "text": "Challenges & How to Overcome Them\n\nLearning curve for Git & Quarto\n\nInstitutional resistance\n\nBest practices to ease adoption"
+    "objectID": "Slides/slides.html#a-reproducible-research-workflow",
+    "href": "Slides/slides.html#a-reproducible-research-workflow",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "A Reproducible Research Workflow",
+    "text": "A Reproducible Research Workflow\n\nStep 1: Organizing your project with Git\n\nStep 2: Analysis\nStep 3: Writing with Quarto\n\nStep 4: Publishing with Quarto"
   },
   {
-    "objectID": "Slides/slides.html#call-to-action-qa",
-    "href": "Slides/slides.html#call-to-action-qa",
-    "title": "What Grad School Don’t Teach You",
-    "section": "Call to Action & Q&A",
-    "text": "Call to Action & Q&A\n\nStart small: Track one project in Git\n\nTry writing a Quarto report\n\nShift from proprietary to open-source tools\n\nEncourage colleagues to embrace reproducibility"
+    "objectID": "Slides/slides.html#challenges",
+    "href": "Slides/slides.html#challenges",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Challenges",
+    "text": "Challenges\n\nLearning curve for Git & Quarto\n\nInstitutional/personal resistance"
   },
   {
-    "objectID": "Slides/slides.html#section-1",
-    "href": "Slides/slides.html#section-1",
-    "title": "What Grad School Don’t Teach You",
+    "objectID": "Slides/slides.html#way-forward",
+    "href": "Slides/slides.html#way-forward",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Way Forward",
+    "text": "Way Forward\n\nStart small: Track one project in Git\n\nTry writing a Quarto report\n\nShift from proprietary to open-source tools\n\nEncourage colleagues to embrace reproducibility"
+  },
+  {
+    "objectID": "Slides/slides.html#section-2",
+    "href": "Slides/slides.html#section-2",
+    "title": "What Grad Schools Don’t Teach You",
     "section": "",
     "text": "Questions"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "Slides/index.html",
-    "href": "Slides/index.html",
-    "title": "Slides",
-    "section": "",
-    "text": "You can view the slides below or open them in a new tab."
-  },
-  {
-    "objectID": "Slides/about_u.html",
-    "href": "Slides/about_u.html",
-    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
-    "section": "",
-    "text": "Research Scholars\nAcademicians\nContent Creators"
-  },
-  {
-    "objectID": "Slides/about_u.html#about-you",
-    "href": "Slides/about_u.html#about-you",
-    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
-    "section": "",
-    "text": "Research Scholars\nAcademicians\nContent Creators"
   }
 ]
