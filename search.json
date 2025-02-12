@@ -7,44 +7,16 @@
     "text": "Welcome to the “What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research”. The course website can be found at where you will also find a copy of the slides.\n\nContents\n\nUnderstand the chaos in research\nimportance of reproducible research and technical writing\ntools for version control and technical writing\n\n\n\nTarget Audience\n\nResearch schoalrs\nAcedemic Instructors\n\n\n\nPrerequisites\nAlmost None to get a ‘whirlwind tour’. But certainly lot to learn!!"
   },
   {
-    "objectID": "Slides/index.html",
-    "href": "Slides/index.html",
-    "title": "Slides",
-    "section": "",
-    "text": "You can view the slides below or open them in a new tab."
-  },
-  {
-    "objectID": "Slides/about_u.html",
-    "href": "Slides/about_u.html",
-    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
-    "section": "",
-    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
-  },
-  {
-    "objectID": "Slides/about_u.html#about-you",
-    "href": "Slides/about_u.html#about-you",
-    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
-    "section": "",
-    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "Slides/about_me.html",
     "href": "Slides/about_me.html",
-    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
+    "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
     "section": "",
     "text": "Nithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
   },
   {
     "objectID": "Slides/about_me.html#about-me",
     "href": "Slides/about_me.html#about-me",
-    "title": "What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research",
+    "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
     "section": "",
     "text": "Nithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
   },
@@ -75,6 +47,34 @@
     "title": "What Grad Schools Don’t Teach You",
     "section": "Disclaimer",
     "text": "Disclaimer\n\nResearch is not equivalent to expertise in tools\n\nHowever, knowing these tools can save time"
+  },
+  {
+    "objectID": "Slides/slides.html#collaborative-researchthesisdissertation",
+    "href": "Slides/slides.html#collaborative-researchthesisdissertation",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Collaborative Research/Thesis/Dissertation",
+    "text": "Collaborative Research/Thesis/Dissertation\nImagine:\n\nYou’ve written a research draft and want feedback, so you email draft.docx.\nI add comments, make changes, and email you back draft_Nithin_comments.docx.\nYou incorporate suggestions, add more sections, and send me draft_v2.docx.\nAfter a few more rounds, we end up with draft_v5_final_FINAL.docx."
+  },
+  {
+    "objectID": "Slides/slides.html#section-1",
+    "href": "Slides/slides.html#section-1",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "",
+    "text": "Messy Folder Example\n\n“How many of you have experienced this?”"
+  },
+  {
+    "objectID": "Slides/slides.html#section-2",
+    "href": "Slides/slides.html#section-2",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "",
+    "text": "Multi-Format Problem\n\nDifferent versions of the same file in multiple formats\n\nHard to track changes and collaborate efficiently\n\nExample: ‘paper.docx’, ‘paper.pdf’, ‘paper.tex’, ‘paper_final.docx’"
+  },
+  {
+    "objectID": "Slides/slides.html#section-3",
+    "href": "Slides/slides.html#section-3",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "",
+    "text": "Collaboration Challenge"
   },
   {
     "objectID": "Slides/slides.html#what-if-there-was-a-better-way",
@@ -147,10 +147,38 @@
     "text": "Way Forward\n\nStart small: Track one project in Git\n\nTry writing a Quarto report\n\nShift from proprietary to open-source tools\n\nEncourage colleagues to embrace reproducibility"
   },
   {
-    "objectID": "Slides/slides.html#section-2",
-    "href": "Slides/slides.html#section-2",
+    "objectID": "Slides/slides.html#section-5",
+    "href": "Slides/slides.html#section-5",
     "title": "What Grad Schools Don’t Teach You",
     "section": "",
     "text": "Questions"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Slides/index.html",
+    "href": "Slides/index.html",
+    "title": "Slides",
+    "section": "",
+    "text": "You can view the slides below or open them in a new tab."
+  },
+  {
+    "objectID": "Slides/about_u.html",
+    "href": "Slides/about_u.html",
+    "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
+    "section": "",
+    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
+  },
+  {
+    "objectID": "Slides/about_u.html#about-you",
+    "href": "Slides/about_u.html#about-you",
+    "title": "What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research",
+    "section": "",
+    "text": "Research Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
   }
 ]
