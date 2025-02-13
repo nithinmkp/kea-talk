@@ -10,7 +10,7 @@ Welcome to the "What Grad School Don’t Teach You: Tools for Transparent and Re
 - tools for  version control and technical writing
 
 # Target Audience
-- Research schoalrs
+- Research scholars
 - Acedemic Instructors
 
 # Prerequisites

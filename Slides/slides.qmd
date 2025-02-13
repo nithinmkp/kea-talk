@@ -1,6 +1,6 @@
 ---
 title: "What Grad Schools Don’t Teach You"
-subtitle: Tools for Transperant and Reproducable Research
+subtitle: Tools for Transparant and Reproducible Research
 author: Nithin M
 image: titlke.jpeg
 format:
@@ -68,25 +68,20 @@ Imagine:
 
 ---
 
-## 
-![](titlke.jpeg)
-
----
-
 ## What if there was a better way
   - Automate documentation & results  
   - Use version control for tracking changes  
   - Ensure full reproducibility with open tools 
 
-[Outcome  - Reproducible Research]{.huge-font-r}
+[Outcome  - Reproducible Research]{.huge-font .huge-font-r}
 ---
 
-## Why Reproducibility Matters {.scrollable}
+## Why Reproducibility Matters ? {.scrollable}
 - Replication crisis: Cases where results didn’t hold  
 - **Top journals now require code submission**  
-  - *American Economic Review (AER):* 
-  - *The Economic Journal:*  
-  - *Econometrica:* 
+  - *American Economic Review (AER)* 
+  - *The Economic Journal*  
+  - *Econometrica* 
 - **Even Research Associate positions now require fully reproducible code, including directory structure, even in Stata.**  
 
 ## The Economist’s Toolbox for Reproducibility    
