@@ -101,8 +101,8 @@
     "objectID": "Slides/slides.html#why-reproducibility-matters",
     "href": "Slides/slides.html#why-reproducibility-matters",
     "title": "What Grad Schools Don’t Teach You",
-    "section": "Why Reproducibility Matters",
-    "text": "Why Reproducibility Matters\n\nReplication crisis: Cases where results didn’t hold\n\nTop journals now require code submission\n\nAmerican Economic Review (AER):\nThe Economic Journal:\n\nEconometrica:\n\nEven Research Associate positions now require fully reproducible code, including directory structure, even in Stata."
+    "section": "Why Reproducibility Matters ?",
+    "text": "Why Reproducibility Matters ?\n\nReplication crisis: Cases where results didn’t hold\n\nTop journals now require code submission\n\nAmerican Economic Review (AER)\nThe Economic Journal\n\nEconometrica\n\nEven Research Associate positions now require fully reproducible code, including directory structure, even in Stata."
   },
   {
     "objectID": "Slides/slides.html#the-economists-toolbox-for-reproducibility",
@@ -161,8 +161,8 @@
     "text": "Way Forward\n\nStart small: Track one project in Git\n\nTry writing a Quarto report\n\nShift from proprietary to open-source tools\n\nEncourage colleagues to embrace reproducibility"
   },
   {
-    "objectID": "Slides/slides.html#section-5",
-    "href": "Slides/slides.html#section-5",
+    "objectID": "Slides/slides.html#section-4",
+    "href": "Slides/slides.html#section-4",
     "title": "What Grad Schools Don’t Teach You",
     "section": "",
     "text": "Questions"
@@ -186,6 +186,6 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "Welcome to the “What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research”. The course website can be found at where you will also find a copy of the slides.\n\nContents\n\nUnderstand the chaos in research\nimportance of reproducible research and technical writing\ntools for version control and technical writing\n\n\n\nTarget Audience\n\nResearch schoalrs\nAcedemic Instructors\n\n\n\nPrerequisites\nAlmost None to get a ‘whirlwind tour’. But certainly lot to learn!!"
+    "text": "Welcome to the “What Grad School Don’t Teach You: Tools for Transparent and Reproducible Research”. The course website can be found at where you will also find a copy of the slides.\n\nContents\n\nUnderstand the chaos in research\nimportance of reproducible research and technical writing\ntools for version control and technical writing\n\n\n\nTarget Audience\n\nResearch scholars\nAcedemic Instructors\n\n\n\nPrerequisites\nAlmost None to get a ‘whirlwind tour’. But certainly lot to learn!!"
   }
 ]
