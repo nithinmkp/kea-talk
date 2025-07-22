@@ -7,11 +7,15 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-704a3d686fdb3e6b26ef47c77620618f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/jquery-3.6.3/jquery-3.6.3.min.js"></script>
+<script src="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.js" defer="true"></script>
+<link href="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
   <meta name="author" content="Nithin M">
+  <meta name="author" content="Naveen Hari">
   <title>What Grad Schools Don’t Teach You: Tools for Transparent and Reproducible Research – What Grad Schools Don’t Teach You</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,7 +35,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9e0b34575e0b503682d4060e02ae8a56.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e1def2db2e2611965b7dbc61e4d43733.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -132,12 +136,17 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">What Grad Schools Don’t Teach You</h1>
-  <p class="subtitle">Tools for Transperant and Reproducable Research</p>
+  <p class="subtitle">Tools for Transparant and Reproducible Research</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
 Nithin M 
+</div>
+</div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Naveen Hari 
 </div>
 </div>
 </div>
@@ -147,6 +156,13 @@ Nithin M
 <h2></h2>
 <p>Welcome</p>
 </section>
+<section class="slide level2">
+
+<blockquote>
+<p><em>“Writing good code is part of doing good research.”</em><br>
+— Konrad Hinsen</p>
+</blockquote>
+</section>
 <section id="about-me" class="slide level2">
 <h2>About Me</h2>
 <div class="columns">
@@ -154,8 +170,7 @@ Nithin M
 <p><img src="nithin.jpeg" width="150px" style="border-radius: 50%;"></p>
 </div><div class="column" style="width:70%;">
 <p><strong>Nithin M</strong><br>
-Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Board<br>
-🎓 <em>Indian Institute of Technology Kharagpur</em></p>
+Assistant Professor, Kerala Agricultural Univeristy &amp;Doctoral Student, Economics 🎓 <em>Indian Institute of Technology Kharagpur</em></p>
 <p><a href="https://twitter.com/nithin_eco"><i class="fa-brands fa-twitter" aria-label="twitter"></i> <span class="citation" data-cites="nithin_eco">@nithin_eco</span></a><br>
 <a href="https://github.com/nithinmkp"><i class="fa-brands fa-github" aria-label="github"></i> <span class="citation" data-cites="nithinmkp">@nithinmkp</span></a><br>
 <i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:write2nithinm@gmail.com">write2nithinm@gmail.com</a><br>
@@ -169,8 +184,6 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <li class="fragment">Research Scholars<br>
 </li>
 <li class="fragment">Academicians<br>
-</li>
-<li class="fragment">Content Creators<br>
 </li>
 <li class="fragment"><strong>Your current workflow:</strong>
 <ul>
@@ -242,7 +255,7 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 <p><span class="huge-font huge-font-r">Outcome - Reproducible Research</span></p>
 </section>
 <section id="why-reproducibility-matters" class="slide level2 scrollable">
-<h2>Why Reproducibility Matters</h2>
+<h2>Why Reproducibility Matters ?</h2>
 <ul>
 <li>Replication crisis: Cases where results didn’t hold<br>
 </li>
@@ -253,71 +266,182 @@ Doctoral Student, Economics &amp; Research Assistant, Kerala State Planning Boar
 </li>
 <li><em>Econometrica</em></li>
 </ul></li>
-<li><strong>Even Research Associate positions now require fully reproducible code, including directory structure, even in Stata.</strong></li>
+<li><strong>Even Research Associate positions now require fully reproducible code, including directory structure, even in Stata.</strong><br>
+</li>
+<li>Reproducibility = Transparency + Accountability</li>
 </ul>
 </section>
-<section id="the-economists-toolbox-for-reproducibility" class="slide level2">
-<h2>The Economist’s Toolbox for Reproducibility</h2>
+<section id="aspects-of-a-reproducible-research-project" class="slide level2">
+<h2>Aspects of a Reproducible Research Project</h2>
 <ul>
-<li><strong>Open-source programming tools</strong> instead of proprietary software<br>
+<li>🗂 Well-structured project folder<br>
 </li>
-<li><strong>Quarto</strong> for technical writing and reproducible reports<br>
+<li>🧾 Documented workflow<br>
 </li>
-<li><strong>Git &amp; GitHub</strong> for version control</li>
+<li>🔁 Version control<br>
+</li>
+<li>💻 Executable code<br>
+</li>
+<li>📦 Environment capture<br>
+</li>
+<li>📜 Literate programming<br>
+</li>
+<li>🧪 Verifiable results</li>
 </ul>
 </section>
-<section id="the-problem-with-proprietary-software" class="slide level2">
-<h2>The Problem with Proprietary Software</h2>
+<section id="well-structured-project-folder" class="slide level2">
+<h2>Well-Structured Project Folder 🗂</h2>
 <ul>
-<li>Expensive licensing costs (SPSS, Stata, MATLAB)<br>
+<li>Think of it as your project’s “home” — neat, predictable, and intuitive<br>
 </li>
-<li>Limited transparency and reproducibility<br>
-</li>
-<li>Dependency on vendor updates<br>
-</li>
-<li>Restrictions on sharing and collaboration</li>
-</ul>
-</section>
-<section id="open-source-alternatives" class="slide level2">
-<h2>Open-Source Alternatives</h2>
+<li>Clear separation of:
 <ul>
-<li><strong>R &amp; Python</strong>: Powerful, free, and widely used in research<br>
+<li><code>data/</code>: raw and processed datasets<br>
 </li>
-<li><strong>Jupyter Notebooks &amp; Quarto</strong>: Interactive and reproducible analysis<br>
+<li><code>scripts/</code>: cleaning, analysis, visualization<br>
 </li>
-<li><strong>RStudio &amp; VS Code</strong>: User-friendly IDEs for research</li>
+<li><code>output/</code>: tables, plots, reports<br>
+</li>
+<li><code>docs/</code>: draft reports, manuscripts<br>
+</li>
+</ul></li>
+<li>Helps others (and future-you) navigate with ease</li>
 </ul>
 </section>
-<section id="reproducible-technical-writing-with-quarto" class="slide level2">
-<h2>Reproducible Technical Writing with Quarto</h2>
+<section id="documented-workflow" class="slide level2">
+<h2>Documented Workflow 🧾</h2>
 <ul>
-<li>Integrates code, text, and results<br>
-</li>
-<li>Avoids copy-pasting mistakes<br>
-</li>
-<li>Generates reports in multiple formats (HTML, PDF, Word)</li>
-</ul>
-</section>
-<section id="version-control-git-github-in-action" class="slide level2">
-<h2>Version Control: Git &amp; GitHub in Action</h2>
+<li>Explain <strong>what was done</strong>, <strong>why</strong>, and <strong>how</strong></li>
+<li>Use:
 <ul>
-<li>Track changes efficiently<br>
+<li><code>README.md</code> for project overview<br>
 </li>
-<li>Collaborate without chaos<br>
+<li>Code comments &amp; inline notes<br>
 </li>
-<li>Revert to previous versions easily</li>
+<li>External documentation tools like Quarto or R Markdown</li>
+</ul></li>
+<li>Think of it as a research diary: future collaborators or reviewers should not guess</li>
 </ul>
 </section>
-<section id="a-reproducible-research-workflow" class="slide level2">
-<h2>A Reproducible Research Workflow</h2>
-<ol type="1">
-<li><strong>Step 1:</strong> Organizing your project with Git<br>
+<section id="version-control" class="slide level2">
+<h2>Version Control 🔁</h2>
+<ul>
+<li>Use <strong>Git</strong> to track edits over time:
+<ul>
+<li>Who changed what, when, and why</li>
+</ul></li>
+<li>Enables:
+<ul>
+<li>Rolling back mistakes<br>
 </li>
-<li><strong>Step 2:</strong> Analysis</li>
-<li><strong>Step 3:</strong> Writing with Quarto<br>
+<li>Collaborating without overwriting<br>
 </li>
-<li><strong>Step 4:</strong> Publishing with Quarto</li>
-</ol>
+<li>Tracking evolution of ideas</li>
+</ul></li>
+<li>Tools: Git + GitHub/GitLab/Bitbucket</li>
+</ul>
+<blockquote>
+<p>Bonus: GitHub also gives you cloud backup &amp; sharing</p>
+</blockquote>
+</section>
+<section id="executable-code" class="slide level2">
+<h2>Executable Code 💻</h2>
+<ul>
+<li>Good research should not rely on <strong>manual steps</strong>, <strong>clicks</strong>, or <strong>copy-pasting results into Word</strong></li>
+<li>Proprietary tools like <strong>SPSS</strong>, and <strong>Excel</strong> often encourage point-and-click workflows
+<ul>
+<li>Difficult to track what was done<br>
+</li>
+<li>Not easily repeatable or auditable<br>
+</li>
+<li>Risk of human error</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="solution-scripted-reproducible-workflows">Solution: Scripted, Reproducible Workflows</h3>
+<ul>
+<li>Write reusable scripts in <strong>R</strong> or <strong>Python</strong></li>
+<li>Generate outputs programmatically:
+<ul>
+<li>Tables<br>
+</li>
+<li>Figures<br>
+</li>
+<li>Summary statistics</li>
+</ul></li>
+<li>Use tools like <strong>Quarto</strong> or <strong>Jupyter Notebooks</strong> to combine code and documentation</li>
+</ul>
+</section>
+<section id="environment-capture" class="slide level2">
+<h2>Environment Capture 📦</h2>
+<ul>
+<li>A key limitation of <strong>proprietary software</strong>:
+<ul>
+<li>No control over versions or environments<br>
+</li>
+<li>Can break silently after updates (e.g., Stata 15 → 18)<br>
+</li>
+<li>License restrictions limit collaboration &amp; sharing</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="why-capture-environments">Why Capture Environments?</h3>
+<ul>
+<li>Ensures <strong>your analysis runs the same way tomorrow</strong> as it does today<br>
+</li>
+<li>Makes your project portable across machines and collaborators<br>
+</li>
+<li>Journals now ask for full reproducibility (including code + setup)</li>
+</ul>
+<blockquote>
+<p>This is your project’s <strong>time machine</strong> — essential for long-term reproducibility</p>
+</blockquote>
+</section>
+<section id="literate-programming" class="slide level2">
+<h2>Literate Programming 📜</h2>
+<ul>
+<li>Combine <strong>code + results + narrative</strong> in one file</li>
+<li>Tools:
+<ul>
+<li><code>Quarto</code>, <code>R Markdown</code>, <code>Jupyter</code></li>
+</ul></li>
+<li>Advantages:
+<ul>
+<li>No copy-paste errors<br>
+</li>
+<li>Easy to update plots, stats, tables<br>
+</li>
+<li>Great for reports, theses, papers</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>Write papers the way you write code: integrated, versioned, transparent</p>
+</blockquote>
+</section>
+<section id="verifiable-results" class="slide level2">
+<h2>Verifiable Results 🧪</h2>
+<ul>
+<li>Can someone rerun your project and <strong>get the same output</strong>?</li>
+<li>What’s needed:
+<ul>
+<li>Raw data (or access instructions)<br>
+</li>
+<li>Code/scripts<br>
+</li>
+<li>Clear instructions or README<br>
+</li>
+</ul></li>
+<li>Use reproducibility checklists (e.g., AER, JDE)<br>
+</li>
+<li>Consider sharing via GitHub, OSF, Zenodo</li>
+</ul>
+<blockquote>
+<p>This is the ultimate test of credible research</p>
+</blockquote>
 </section>
 <section id="challenges" class="slide level2">
 <h2>Challenges</h2>
