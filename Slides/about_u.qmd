@@ -2,7 +2,6 @@
 ::: {.incremental}
 - Research Scholars  
 - Academicians  
-- Content Creators  
 - **Your current workflow:**  
   - manually save multiple versions of the same file 
   - rely on copy-pasting results  

@@ -11,14 +11,14 @@
     "href": "Slides/slides.html#about-me",
     "title": "What Grad Schools Don’t Teach You",
     "section": "About Me",
-    "text": "About Me\n\n\n\n\nNithin M\nDoctoral Student, Economics & Research Assistant, Kerala State Planning Board\n🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
+    "text": "About Me\n\n\n\n\nNithin M\nAssistant Professor, Kerala Agricultural Univeristy &Doctoral Student, Economics 🎓 Indian Institute of Technology Kharagpur\n @nithin_eco\n @nithinmkp\n write2nithinm@gmail.com\n Website"
   },
   {
     "objectID": "Slides/slides.html#about-you",
     "href": "Slides/slides.html#about-you",
     "title": "What Grad Schools Don’t Teach You",
     "section": "About You",
-    "text": "About You\n\n\nResearch Scholars\n\nAcademicians\n\nContent Creators\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
+    "text": "About You\n\n\nResearch Scholars\n\nAcademicians\n\nYour current workflow:\n\nmanually save multiple versions of the same file\nrely on copy-pasting results\n\nstruggle with collaboration across different tools\n\nanalysis in STATA , write in Word, communicate via email"
   },
   {
     "objectID": "Slides/slides.html#disclaimer",
@@ -66,8 +66,8 @@
     "objectID": "Slides/slides.html#why-reproducibility-matters",
     "href": "Slides/slides.html#why-reproducibility-matters",
     "title": "What Grad Schools Don’t Teach You",
-    "section": "Why Reproducibility Matters",
-    "text": "Why Reproducibility Matters\n\nReplication crisis: Cases where results didn’t hold\n\nTop journals now require code submission\n\nAmerican Economic Review (AER)\nThe Economic Journal\n\nEconometrica\n\nEven Research Associate positions now require fully reproducible code, including directory structure, even in Stata."
+    "section": "Why Reproducibility Matters ?",
+    "text": "Why Reproducibility Matters ?\n\nReplication crisis: Cases where results didn’t hold\n\nTop journals now require code submission\n\nAmerican Economic Review (AER)\nThe Economic Journal\n\nEconometrica\n\nEven Research Associate positions now require fully reproducible code, including directory structure, even in Stata.\n\nReproducibility = Transparency + Accountability"
   },
   {
     "objectID": "Slides/slides.html#the-economists-toolbox-for-reproducibility",
@@ -222,5 +222,61 @@
     "title": "What Grad Schools Don’t Teach You",
     "section": "",
     "text": "Questions"
+  },
+  {
+    "objectID": "Slides/slides.html#aspects-of-a-reproducible-research-project",
+    "href": "Slides/slides.html#aspects-of-a-reproducible-research-project",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Aspects of a Reproducible Research Project",
+    "text": "Aspects of a Reproducible Research Project\n\n🗂 Well-structured project folder\n\n🧾 Documented workflow\n\n🔁 Version control\n\n💻 Executable code\n\n📦 Environment capture\n\n📜 Literate programming\n\n🧪 Verifiable results"
+  },
+  {
+    "objectID": "Slides/slides.html#well-structured-project-folder",
+    "href": "Slides/slides.html#well-structured-project-folder",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Well-Structured Project Folder 🗂",
+    "text": "Well-Structured Project Folder 🗂\n\nThink of it as your project’s “home” — neat, predictable, and intuitive\n\nClear separation of:\n\ndata/: raw and processed datasets\n\nscripts/: cleaning, analysis, visualization\n\noutput/: tables, plots, reports\n\ndocs/: draft reports, manuscripts\n\n\nHelps others (and future-you) navigate with ease"
+  },
+  {
+    "objectID": "Slides/slides.html#documented-workflow",
+    "href": "Slides/slides.html#documented-workflow",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Documented Workflow 🧾",
+    "text": "Documented Workflow 🧾\n\nExplain what was done, why, and how\nUse:\n\nREADME.md for project overview\n\nCode comments & inline notes\n\nExternal documentation tools like Quarto or R Markdown\n\nThink of it as a research diary: future collaborators or reviewers should not guess"
+  },
+  {
+    "objectID": "Slides/slides.html#version-control",
+    "href": "Slides/slides.html#version-control",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Version Control 🔁",
+    "text": "Version Control 🔁\n\nUse Git to track edits over time:\n\nWho changed what, when, and why\n\nEnables:\n\nRolling back mistakes\n\nCollaborating without overwriting\n\nTracking evolution of ideas\n\nTools: Git + GitHub/GitLab/Bitbucket\n\n\nBonus: GitHub also gives you cloud backup & sharing"
+  },
+  {
+    "objectID": "Slides/slides.html#executable-code",
+    "href": "Slides/slides.html#executable-code",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Executable Code 💻",
+    "text": "Executable Code 💻\n\nGood research should not rely on manual steps, clicks, or copy-pasting results into Word\nProprietary tools like SPSS, and Excel often encourage point-and-click workflows\n\nDifficult to track what was done\n\nNot easily repeatable or auditable\n\nRisk of human error"
+  },
+  {
+    "objectID": "Slides/slides.html#environment-capture",
+    "href": "Slides/slides.html#environment-capture",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Environment Capture 📦",
+    "text": "Environment Capture 📦\n\nA key limitation of proprietary software:\n\nNo control over versions or environments\n\nCan break silently after updates (e.g., Stata 15 → 18)\n\nLicense restrictions limit collaboration & sharing"
+  },
+  {
+    "objectID": "Slides/slides.html#literate-programming",
+    "href": "Slides/slides.html#literate-programming",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Literate Programming 📜",
+    "text": "Literate Programming 📜\n\nCombine code + results + narrative in one file\nTools:\n\nQuarto, R Markdown, Jupyter\n\nAdvantages:\n\nNo copy-paste errors\n\nEasy to update plots, stats, tables\n\nGreat for reports, theses, papers\n\n\n\nWrite papers the way you write code: integrated, versioned, transparent"
+  },
+  {
+    "objectID": "Slides/slides.html#verifiable-results",
+    "href": "Slides/slides.html#verifiable-results",
+    "title": "What Grad Schools Don’t Teach You",
+    "section": "Verifiable Results 🧪",
+    "text": "Verifiable Results 🧪\n\nCan someone rerun your project and get the same output?\nWhat’s needed:\n\nRaw data (or access instructions)\n\nCode/scripts\n\nClear instructions or README\n\n\nUse reproducibility checklists (e.g., AER, JDE)\n\nConsider sharing via GitHub, OSF, Zenodo\n\n\nThis is the ultimate test of credible research"
   }
 ]
